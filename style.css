@@ -510,14 +510,14 @@ background-repeat: no-repeat;
 .photo-1 {
     width: 50px;
     right: 190px;
-    z-index: 3;
+    z-index: -3;
     transform: rotate(5deg);
 }
 
 .photo-2 {
     width: 50px;
     right: 100px;
-    z-index: 2;
+    z-index: -2;
     transform: rotate(-3deg);
 }
 
@@ -525,7 +525,7 @@ background-repeat: no-repeat;
     
     width: 60px;
     right: 0;
-    z-index: 1;
+    z-index: -1;
     transform: rotate(2deg);
 }
 
@@ -935,6 +935,7 @@ margin-right: 20px;
 
 
 }
+
 
 
 
